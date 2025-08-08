@@ -25,6 +25,7 @@ alias clear='printf "\033c"'
 alias tac='tail -r'
 alias py='python3'
 alias pysage='python-sage'
+alias ping='ping -c 10'
 
 ## HomeBrew Config
 export HOMEBREW_BREW_GIT_REMOTE="https://mirrors.ustc.edu.cn/brew.git"
