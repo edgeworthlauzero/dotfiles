@@ -11,6 +11,7 @@ plugins=(
     git
     zsh-autosuggestions
     zsh-syntax-highlighting
+    zsh-ssh
 )
 # Oh-My-ZSH Init
 source $ZSH/oh-my-zsh.sh
