@@ -1,0 +1,67 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
+[c]
+symbol = " "
+
+[character]
+success_symbol = '[➜](bold green)'
+error_symbol = '[➜](bold red)'
+
+[cpp]
+disabled = false
+
+[cmake]
+symbol = " "
+
+[conda]
+symbol = "󰯲 "
+
+[container]
+symbol = "⬢ "
+
+[directory]
+read_only = " 󰌾"
+
+[git_branch]
+symbol = " "
+
+[git_commit]
+tag_symbol = '  '
+
+[hostname]
+ssh_symbol = " "
+style = "green bold"
+
+[java]
+symbol = " "
+
+[lua]
+symbol = " "
+
+[memory_usage]
+symbol = "󰍛 "
+
+[meson]
+symbol = "󰔷 "
+
+[nodejs]
+symbol = " "
+
+[package]
+symbol = "󰏗 "
+
+[python]
+symbol = " "
+
+[ruby]
+symbol = " "
+
+[rust]
+symbol = "󱘗 "
+
+[swift]
+symbol = "󰛥 "
+
+[username]
+show_always = true
+style_user = "green bold"
