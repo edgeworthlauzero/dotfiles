@@ -7,6 +7,9 @@ source $HOME/.orbstack/shell/init.zsh 2>/dev/null
 # TheFuck
 eval $('/opt/homebrew/bin/thefuck' '--alias')
 
+# Rust
+source $HOME/.cargo/env
+
 # Conda
 __conda_setup="$('/opt/homebrew/Caskroom/miniforge/base/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
 if [ $? -eq 0 ]; then
