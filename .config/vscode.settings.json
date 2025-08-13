@@ -1,0 +1,122 @@
+{
+    // Files
+    "files.autoSave": "onFocusChange", 
+    // Editor
+    "editor.fontFamily": "Sarasa Mono SC",
+    "editor.fontSize": 20,
+    "editor.fontLigatures": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "editor.smoothScrolling": true,
+    "editor.renderControlCharacters": true,
+    "editor.wordWrap": "on",
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": "on",
+    // Terminal
+    "terminal.integrated.fontFamily": "Sarasa Term SC Nerd",
+    "terminal.integrated.fontSize": 18,
+    "terminal.integrated.fontLigatures.enabled": true,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.rightClickBehavior": "default", // Show context menu on right-click instead of pasting 
+    "terminal.integrated.tabs.location": "left", // Show terminal tabs on the left
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    // Workbench
+    "workbench.list.smoothScrolling": true,
+    "workbench.editor.wrapTabs": true,
+    "workbench.panel.showLabels": false, // Show panel tabs in icons
+    "workbench.layoutControl.enabled": false, // Hide layout control buttons
+    // Explorer
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmPasteNative": false,
+    // Window
+    // "window.dialogStyle": "custom",
+    "window.commandCenter": true,
+    // Others
+    "extensions.ignoreRecommendations": true,
+    "security.workspace.trust.untrustedFiles": "newWindow",
+
+    // LaTex-Workshop 
+    "latex-workshop.formatting.latex": "latexindent", // Set formatting engine
+    "latex-workshop.intellisense.package.enabled": true,
+    "latex-workshop.intellisense.package.env.enabled": true,
+    "latex-workshop.intellisense.package.unusual": true,
+    "latex-workshop.intellisense.package.dirs": [
+        "~/.latexpackages"
+    ], // Set intellisense file directory
+    "latex-workshop.latex.recipe.default": "lastUsed",
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "XeLaTeX",
+            "tools": [
+                "xelatexmk"
+            ]
+        },
+    ],
+    "latex-workshop.latex.tools": [
+        {
+            "args": [
+                "-synctex=1",
+                "-pdfxe",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-outdir=%OUTDIR%",
+                "-shell-escape",
+                "-8bit",
+                "%DOC%"
+            ],
+            "command": "latexmk",
+            "env": {},
+            "name": "xelatexmk"
+        },
+    ],
+    "latex-workshop.message.error.show": false,
+    "latex-workshop.message.warning.show": false,
+    "latex-workshop.latex.autoBuild.run": "never",
+    "latex-workshop.latex.autoClean.run": "onBuilt",
+    "latex-workshop.latex.clean.fileTypes": [
+        "*.aux",
+        "*.bbl",
+        "*.blg",
+        "*.idx",
+        "*.ind",
+        "*.lof",
+        "*.lot",
+        "*.out",
+        "*.toc",
+        "*.acn",
+        "*.acr",
+        "*.alg",
+        "*.glg",
+        "*.glo",
+        "*.gls",
+        "*.ist",
+        "*.fls",
+        "*.log",
+        "*.fdb_latexmk"
+    ],
+    "latex-workshop.showContextMenu": true,
+    "latex-workshop.hover.preview.mathjax.extensions": [
+        "boldsymbol"
+    ],
+    "latex-workshop.view.pdf.viewer": "external",
+    "latex-workshop.view.pdf.external.synctex.command": "/Applications/Skim.app/Contents/SharedSupport/displayline",
+    "latex-workshop.view.pdf.external.synctex.args": [
+        "-r",
+        "%LINE%",
+        "%PDF%",
+        "%TEX%"
+    ],
+    "latex-workshop.view.pdf.external.viewer.command": "skim-sync",
+    "latex-workshop.view.pdf.external.viewer.args": [
+        "-r",
+        "%PDF%"
+    ],
+
+    // Git 
+    "git.openRepositoryInParentFolders": "never",
+    
+    // Python
+    "python.analysis.typeCheckingMode": "basic",
+}
