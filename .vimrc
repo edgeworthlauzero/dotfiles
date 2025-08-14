@@ -1,3 +1,6 @@
+" Set file enconding method to UTF-8
+set encoding=utf-8
+
 " Set plugins
 call plug#begin('~/.vim/plugged')
 Plug 'joshdick/onedark.vim'
@@ -25,7 +28,7 @@ set smarttab
 set autoindent
 " Show tab and extra space
 set list
-set listchars=tab:>.,trail:· 
+set listchars=tab:>.,trail:·
 " Show brackets match
 set showmatch
 " Show search content in highlight
@@ -41,8 +44,6 @@ set wildmode=list:longest,full
 " Set split direction
 set splitright
 set splitbelow
-" Set file enconding method to UTF-8
-set encoding=utf-8
 " Set number of history records
 set history=1000
 set undolevels=1000
