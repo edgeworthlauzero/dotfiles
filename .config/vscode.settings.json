@@ -41,10 +41,6 @@
     "latex-workshop.formatting.latex": "latexindent", // Set formatting engine
     "latex-workshop.intellisense.package.enabled": true,
     "latex-workshop.intellisense.package.env.enabled": true,
-    "latex-workshop.intellisense.package.unusual": true,
-    "latex-workshop.intellisense.package.dirs": [
-        "~/.latexpackages"
-    ], // Set intellisense file directory
     "latex-workshop.latex.recipe.default": "lastUsed",
     "latex-workshop.latex.recipes": [
         {
@@ -119,4 +115,20 @@
     
     // Python
     "python.analysis.typeCheckingMode": "basic",
+    "workbench.secondarySideBar.defaultVisibility": "visible",
+    
+    // Vim
+    "vim.handleKeys": {
+        "<D-c>": false,
+        "<D-v>": false,
+        "<D-x>": false,
+        "<C-c>": false,
+        "<C-v>": false,
+        "<C-x>": false
+    },
+
+    // Markdown
+    "markdown.extension.completion.enabled": true,
+    "markdown.extension.preview.autoShowPreviewToSide": true,
+
 }
