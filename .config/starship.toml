@@ -1,7 +1,7 @@
-"$schema" = 'https://starship.rs/config-schema.json'
+'$schema' = 'https://starship.rs/config-schema.json'
 
 [c]
-symbol = " "
+symbol = ' '
 
 [character]
 success_symbol = '[➜](bold green)'
@@ -11,57 +11,61 @@ error_symbol = '[➜](bold red)'
 disabled = false
 
 [cmake]
-symbol = " "
+symbol = ' '
 
 [conda]
-symbol = "󰯲 "
+symbol = '󰯲 '
 
 [container]
-symbol = "⬢ "
+symbol = '⬢ '
 
 [directory]
-read_only = " 󰌾"
+read_only = ' 󰌾'
+
+[dotnet]
+symbol = '󱗼 '
+format = 'via [$symbol($version)(-$tfm )]($style)'
 
 [git_branch]
-symbol = " "
+symbol = ' '
 
 [git_commit]
 tag_symbol = '  '
 
 [hostname]
-ssh_symbol = " "
-style = "green bold"
+ssh_symbol = ' '
+style = 'green bold'
 
 [java]
-symbol = " "
+symbol = ' '
 
 [lua]
-symbol = " "
+symbol = ' '
 
 [memory_usage]
-symbol = "󰍛 "
+symbol = '󰍛 '
 
 [meson]
-symbol = "󰔷 "
+symbol = '󰔷 '
 
 [nodejs]
-symbol = " "
+symbol = ' '
 
 [package]
-symbol = "󰏗 "
+symbol = '󰏗 '
 
 [python]
-symbol = " "
+symbol = ' '
 
 [ruby]
-symbol = " "
+symbol = ' '
 
 [rust]
-symbol = "󱘗 "
+symbol = '󱘗 '
 
 [swift]
-symbol = "󰛥 "
+symbol = '󰛥 '
 
 [username]
 show_always = true
-style_user = "green bold"
+style_user = 'green bold'
