@@ -24,7 +24,7 @@ read_only = ' 󰌾'
 
 [dotnet]
 symbol = '󱗼 '
-format = 'via [$symbol($version)(-$tfm )]($style)'
+format = 'via [$symbol($version)( -> $tfm )]($style)'
 
 [git_branch]
 symbol = ' '
