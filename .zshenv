@@ -8,3 +8,6 @@ export HOMEBREW_NO_ENV_HINTS=true
 
 # PATH config
 export PATH="$HOME/.local/bin:$PATH"
+export PATH="$HOME/.pyenv/bin:$PATH" # Python
+export PATH="/opt/homebrew/opt/make/libexec/gnubin:$PATH" # GNU make
+
